@@ -13,3 +13,11 @@
 *.a
 
 *~
+
+.cproject
+.project
+
+Release/
+Release/*
+
+gfxh

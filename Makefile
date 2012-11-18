@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall
 
-OBJS = main.o
+OBJS = main.o model_obj.o
 
 APP = gfxh
 

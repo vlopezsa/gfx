@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
 set(CMAKE_GENERATOR_PLATFORM x64)
 
-project (Gfx)
+project (Gfx_${GFX_API})
 
 # ouput exe to bin directory
 SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/bin)
@@ -15,4 +15,4 @@ add_subdirectory(libs/cauldron)
 
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME})
 
-add_subdirectory(src)   
+add_subdirectory(src)

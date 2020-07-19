@@ -7,7 +7,7 @@ add_compile_options(/MP)
 #
 # includes cauldron's helper cmakes
 #
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../libs/cauldron/common.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../libs/cauldron/common.cmake)
 
 #
 # Add manifest so the app uses the right DPI settings

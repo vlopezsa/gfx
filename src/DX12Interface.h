@@ -57,3 +57,5 @@ using namespace DirectX;
 
 
 #include "Widgets/wireframe.h"
+
+using namespace CAULDRON_DX12;
